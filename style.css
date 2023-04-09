@@ -7,27 +7,15 @@
 
 .flex {
   background-color: #00c7ce;
-  width: 400px;
+  width: 500px;
   display: flex;
-  flex-wrap:nowrap;
+  flex-direction: column;
 }
 
 .flex > div {
-  width: 300px;
+  width: 100px;
   background-color: #fff;
   margin: 5px;
   font-size: 30px;
-}
-
-.flex > div:nth-child(1) {
-  flex-shrink: 8;
-}
-.flex > div:nth-child(2) {
-  flex-shrink: 1;
-}
-.flex > div:nth-child(3) {
-  flex-shrink: 5;
-}
-.flex > div:nth-child(4) {
-  flex-shrink: 2;
+  flex-basis:100px;
 }
