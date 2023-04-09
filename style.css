@@ -1,9 +1,10 @@
 .flex {
   background-color: #00c7ce;
   display: flex;
-  align-items: baseline;
+  flex-wrap: wrap;
+  align-content: space-around;
   width: 200px;
-  height: 100px;
+  height: 30vh;
 }
 
 .flex > div {
