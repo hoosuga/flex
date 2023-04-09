@@ -20,6 +20,6 @@
   font-size: 30px;
 }
 
-.flex > div:nth-child(1) {
+.flex > div:nth-child(2) {
   margin-right: auto;
 }
