@@ -1,8 +1,9 @@
 .flex {
   background-color: #00c7ce;
   display: flex;
-  justify-content: space-around;
+  align-items: baseline;
   width: 200px;
+  height: 100px;
 }
 
 .flex > div {
