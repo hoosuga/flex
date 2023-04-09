@@ -1,7 +1,7 @@
 .flex {
   background-color: #00c7ce;
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-flow: row-reverse wrap;
   width: 100px;
 }
 
