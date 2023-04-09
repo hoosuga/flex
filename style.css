@@ -13,11 +13,13 @@
 
 .flex > div {
   width: 100px;
+  height: 100px;
   background-color: #fff;
   margin: 5px;
   font-size: 30px;
 }
 
 .flex > div:nth-child(1) {
-  flex: 1 1 10%;
+  align-self:center;
+  height: 50px;
 }
