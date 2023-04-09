@@ -1,36 +1,33 @@
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 .flex {
   background-color: #00c7ce;
+  width: 400px;
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-  width: 200px;
-  height: 20vh;
+  flex-wrap:nowrap;
+}
+
+.flex > div {
+  width: 300px;
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
 }
 
 .flex > div:nth-child(1) {
-  background-color: #fff;
-  margin: 5px;
-  font-size: 30px;
-  flex-grow:0;
+  flex-shrink: 8;
 }
-
 .flex > div:nth-child(2) {
-  background-color: #fff;
-  margin: 5px;
-  font-size: 30px;
-  flex-grow:1;
+  flex-shrink: 1;
 }
-
 .flex > div:nth-child(3) {
-  background-color: #fff;
-  margin: 5px;
-  font-size: 30px;
-  flex-grow:2;
+  flex-shrink: 5;
 }
-
 .flex > div:nth-child(4) {
-  background-color: #fff;
-  margin: 5px;
-  font-size: 30px;
-  flex-grow:3;
+  flex-shrink: 2;
 }
